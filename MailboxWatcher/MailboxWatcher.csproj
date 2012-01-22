@@ -96,6 +96,12 @@
     </None>
     <AppDesigner Include="Properties\" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\lib\aenetmail\AE.Net.Mail.csproj">
+      <Project>{68E9CF8C-AB54-4CC7-A34F-C7F469E4EFE0}</Project>
+      <Name>AE.Net.Mail</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
