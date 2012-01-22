@@ -1,0 +1,3 @@
+[submodule "lib/aenetmail"]
+	path = lib/aenetmail
+	url = https://github.com/rix0rrr/aenetmail.git
